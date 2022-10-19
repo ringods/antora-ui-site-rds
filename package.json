@@ -12,7 +12,7 @@
     "node": ">= 16.0.0"
   },
   "scripts": {
-    "build": "gulp bundle",
+    "build": "ENV NODE_ENV=production gulp bundle",
     "preview": "gulp preview",
     "clean": "gulp clean"
   },
@@ -61,10 +61,6 @@
     "js-yaml": "~3.13",
     "merge-stream": "~2.0",
     "postcss": "^8.4.18",
-    "postcss-calc": "~7.0",
-    "postcss-custom-properties": "~9.1",
-    "postcss-import": "~12.0",
-    "postcss-url": "~8.0",
     "prettier-eslint": "~9.0",
     "require-directory": "~2.1",
     "require-from-string": "~2.0",

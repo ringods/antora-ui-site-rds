@@ -12,7 +12,7 @@
     "node": ">= 16.0.0"
   },
   "scripts": {
-    "build": "ENV NODE_ENV=production gulp bundle",
+    "build": "NODE_ENV=production gulp bundle",
     "preview": "gulp preview",
     "clean": "gulp clean"
   },

@@ -21,3 +21,6 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           files: ui-bundle.zip
+      - uses: actions/download-artifact@v3
+        with:
+          name: ui-bundle

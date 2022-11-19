@@ -27,7 +27,7 @@ module.exports = {
                         archive: [
                             {
                                 source: './build',
-                                destination: 'build/ui-bundle.zip',
+                                destination: 'ui-bundle.zip',
                                 options: { globOptions: { nomount: true } },
                             },
                         ]

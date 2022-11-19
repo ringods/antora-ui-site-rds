@@ -11,7 +11,7 @@ permissions:
 jobs:
   # First build by re-using the `ci.yaml` workflow
   build:
-    uses: .github/workflows/ci.yaml
+    uses: ./.github/workflows/ci.yaml
   # then publish a release of the site UI bundle
   release:
     needs: build

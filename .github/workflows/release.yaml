@@ -24,3 +24,4 @@ jobs:
       - uses: actions/download-artifact@v3
         with:
           name: ui-bundle
+          path: ui-bundle.zip

@@ -21,6 +21,8 @@ jobs:
         with:
           name: ui-bundle
           path: ui-bundle.zip
+      - name: Display structure of downloaded files
+        run: ls -R
       - name: Release
         uses: softprops/action-gh-release@v1
         with:

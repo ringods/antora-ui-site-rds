@@ -17,11 +17,11 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
-      - name: Release
-        uses: softprops/action-gh-release@v1
-        with:
-          files: ui-bundle.zip
       - uses: actions/download-artifact@v3
         with:
           name: ui-bundle
           path: ui-bundle.zip
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: ui-bundle.zip

@@ -30,12 +30,14 @@
     "dev": "webpack --mode=development serve"
   },
   "devDependencies": {
+    "@tailwindcss/typography": "^0.5.8",
     "autoprefixer": "^10.4.13",
     "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^6.7.2",
     "filemanager-webpack-plugin": "^8.0.0",
     "mini-css-extract-plugin": "^2.7.0",
     "postcss": "^8.4.19",
+    "postcss-focus-visible": "^7.1.0",
     "postcss-loader": "^7.0.1",
     "tailwindcss": "^3.2.4",
     "webpack": "^5.75.0",

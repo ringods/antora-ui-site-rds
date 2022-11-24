@@ -1,0 +1,9 @@
+{{#*inline "tButton"}}
+<button type="button" class="storybook-button storybook-button--{{ size }} {{ mode }}">{{ label }}</button>
+{{/inline}}
+{{#if primary}}
+{{>tButton mode="storybook-button--primary" }}
+{{/if}}
+{{#unless primary}}
+{{>tButton mode="storybook-button--secondary" }}
+{{/unless}}

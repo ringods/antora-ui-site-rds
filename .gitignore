@@ -2,3 +2,8 @@ node_modules/
 public/
 build/
 ui-bundle.zip
+storybook-static/
+
+# Temporary 
+src/stories/Introduction.stories.mdx
+src/stories/assets/

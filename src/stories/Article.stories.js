@@ -21,8 +21,8 @@ export const Article = Template.bind({});
 // More on args: https://storybook.js.org/docs/html/writing-stories/args
 Article.args = {
     page: {
-        title: 'Article Title',
-        contents: 'Article contents with a lot more text',
+        title: 'Crafting a design system for a multiplanetary future',
+        contents: 'Most companies try to stay ahead of the curve when it comes to visual design, but for Planetaria we needed to create a brand that would still inspire us 100 years from now when humanity has spread across our entire solar system.',
         date: '2022-10-05'
     }
 };

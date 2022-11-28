@@ -122,6 +122,8 @@ module.exports = {
           // Images
           img: {
             borderRadius: theme('borderRadius.3xl'),
+            maxWidth: '100%',
+            height: 'auto',
           },
 
           // Inline elements

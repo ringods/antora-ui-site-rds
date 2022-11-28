@@ -4,8 +4,9 @@ import TimePartial from '../partials/time.hbs';
 export default {
     title: 'Blog/Time',
     argTypes: {
-        date: {
-            description: "Date"
+        revdate: {
+            control: 'string',
+            description: "Revision Date"
         }
     }
 };
@@ -20,5 +21,5 @@ const Template = ({ date, ...args }) => {
 export const Time = Template.bind({});
 // More on args: https://storybook.js.org/docs/html/writing-stories/args
 Time.args = {
-    date: '2022-10-05'
+    revdate: '2022-10-05'
 };

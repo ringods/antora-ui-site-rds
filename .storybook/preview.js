@@ -11,5 +11,5 @@ export const parameters = {
 }
 
 export const decorators = [
-  (Story) => `<div class="h-full antialiased flex h-full flex-col bg-zinc-50 dark:bg-black">${Story()}</div>`,
+  (Story) => `<div class="h-full antialiased flex flex-col bg-zinc-50 dark:bg-black">${Story()}</div>`,
 ];
